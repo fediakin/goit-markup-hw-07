@@ -811,6 +811,19 @@ img {
 
                                         /* FOOTER */
 
+@media screen and (max-width: 427px) {
+        .form-footer-input {
+                margin-bottom: 16px;
+                max-width: 398px;
+        }
+}
+
+@media screen and (min-width: 428px) {
+        .form-footer-input {
+                margin-bottom: 16px;
+                min-width: 398px;
+        }
+}
 
 .main-footer {
         background-color: var(--tags-color);
@@ -924,8 +937,6 @@ img {
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: white;
         margin-bottom: 16px;
-        min-width: 398px;
-        max-width: 264px;
 }
 
 .btt-footer {

@@ -916,7 +916,6 @@ img {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 16px;
 }
 
 .form-footer-input {
@@ -960,6 +959,12 @@ img {
 .btt-footer:hover,
 .btt-footer:focus {
         background: var(--hf-buttons-color);
+}
+
+@media screen and (max-width: 767px) {
+        .form-footer {
+                margin-bottom: 16px;
+        }
 }
 
 @media screen and (min-width: 768px) {

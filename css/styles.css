@@ -1037,6 +1037,23 @@ img {
 
 }
 
+
+@media screen and (min-width: 428px) {
+        .backdrop {
+                z-index: 10;
+        }
+}
+
+@media screen and (max-width: 427px) {
+        .backdrop {
+                z-index: 10;
+        }
+        
+        .modal {
+                max-width: 300px;
+        }
+}
+
 .div-index {
         display: flex;
         
